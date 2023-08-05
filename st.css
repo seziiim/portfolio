@@ -518,23 +518,19 @@ ul {
 @media only screen and (max-width:768px) {
 
     .row {
-        width: 100%;
-        flex-direction: column;
-        margin: 0;
+     flex-direction:column;
     }
-    .box1{
-        width: 100%;
+    .name{
+        font-size: 1rem;
     }
-    .btn-cta-secondary{
-        width: 100%;
-
+    .primary{
+        width:100%;
     }
-    .sections-wrapper{
-        width: 100%;
-
+    .primary-col{
+        width:100%;
     }
-}
-
-@media only screen  and (max-width:992px) {
-    
+    .copyright{
+        text-align:center;
+        flex-wrap:wrap;
+    }
 }
